@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c1a57f95c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+        <nav>
+        <img src="AJIBOLA.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+     <div class="header-text">
+      <p>SOFTWARE DEVELOPER</p>
+      <h1>Hi, I'm <span>Ajibola</span><br> Jumoke From Nigeria</h1>
+     </div>
+
+     </div>
+
+        </div>
+        <!-- -----About section--------> 
+      <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="Aboust_us-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+
+                     I am a multifaceted technology professional with extensive expertise in software development, UI/UX design, project management, and cybersecurity. With a strong foundation in crafting scalable, efficient, and secure software solutions, I bring creativity and precision to every project. My skills in UI/UX design ensure intuitive and user-centric interfaces that enhance the overall user experience.
+                        
+                        As a project manager, I excel in orchestrating cross-functional teams, streamlining workflows, and delivering high-quality results on time and within budget. My cybersecurity proficiency complements my technical and managerial roles by implementing robust security measures to safeguard digital assets and ensure compliance with industry standards.
+                        
+                        By leveraging this unique blend of skills, I consistently drive innovation, optimize processes, and secure systems, making me a valuable asset in today's dynamic tech landscape.
+                        
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                
+                <div class="tab-contents active-tab" id="skills">       
+                    <ul>
+                    <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                    <li><span>Project Management</span><br>Scrum master</li>
+                    <li><span>CyberSecurity</span><br>Security Analyst</li>
+               </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+               <ul>
+                    <li><span>2024 - Current</span><br>Software Development Training at 3MTT Nigeria</li>
+                    <li><span>Febuary 2024-August 2024</span><br>Project management trainning at Coursera (GOOGLE).</li>
+                    <li><span>2024</span><br>UI/UX Training at COURSERA (GOOGLE)</li>
+                    <li><span>2024</span><br>CyberSecurity Training at COURSERA.</li>
+            
+               </ul>
+                </div>
+                
+                <div class="tab-contents" id="education">
+               <ul>
+                    <li><span>2015- 2017</span><br>HND in Leisure And Tourism Management</li>
+                    <li><span>Febuary 2024</span><br>Professional certification in Project management</li>
+                    <li><span>2024</span><br>Professional certification in User Experience</li>
+                    <li><span>2024</span><br>Professional certification in CyberSecurity</li>
+            
+               </ul>
+                </div>
+               
+                </div>
+            </div>
+      </div>
+    </div>
+
+
+    <!-- Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Designing and developing tailored software applications to meet specific client or business needs.
+                        Building scalable, secure, and efficient solutions for web, mobile, or desktop platforms.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                    <p>Conducting user research to understand target audiences, their behaviors, and pain points.
+                        Creating personas, user journeys, and empathy maps to inform design decisions.</p>
+                        <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                          <i class="fa-brands fa-app-store-ios"></i>
+                            <h2>CyberSecurity</h2>
+                    <p>Conducting comprehensive security audits to identify vulnerabilities in systems, networks, and applications.
+                        Assessing and prioritizing risks to develop effective mitigation strategies.</p>
+                        <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-thin fa-images"></i>
+                            <h2>Project Management</h2>
+                    <p> My services focus on planning, executing, and delivering projects efficiently while ensuring alignment with organizational goals and client</p>
+                        <a href="#">Learn More</a>
+                        </div>
+            </div>
+        </div>
+     </div>
+     <!-- portfolio -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="social media app.png">
+                    <div class="layer">
+                        <h3>Health Care App</h3>
+                        <p>The app connect you to the tanlented people around the world.
+                            Download it from play store.</p>
+                            <a href="https://67de6f69aae33fcf61ca0191--sprightly-starburst-6f779e.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image-red.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connect you to the tanlented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                <div class="work">
+                    <img src="image-to use.png">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connect you to the tanlented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+
+      <!-- ----------------Contact----------- -->
+          <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>jummytreasure@gmail.com</p>
+                        <p><i class="fa-sharp fa-light fa-phone"></i>+2347039205269</p>
+                        <div class="social-icons">
+                        <a href="https://web.facebook.com/jumoke.woye"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/woyejumoke"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/raenterprice/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ajibola-jumoke-hamdalat-8bb745a7/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Ajibola_Resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright Ajibola jumoke<i class="fa-solid fa-heart"></i> portfolio</p>
+            </div>
+          </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            // Hide all tab contents
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+    
+            // Remove "active-link" from all tab links
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+    
+            // Show the selected tab content and highlight the tab link
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+
+
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwWmGSM2yDMQ_dTNpJkKU6u4jivDRmt2niQCwXcuACuhuf0wFa7WJ9E65YqCqYvPVQgkg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+
+
+
+
+</script>
+</body>
+</html>
